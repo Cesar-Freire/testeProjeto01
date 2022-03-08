@@ -77,3 +77,14 @@
     margin: -50px 45px 0px -10px;
   }
 }
+
+@media (max-width: 414px) {
+  .h3-texto {
+    font-size: 26px;
+    margin-left: 37px;
+  }
+
+  .preco-texto {
+    font-size: 26px;
+  }
+}

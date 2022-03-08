@@ -54,3 +54,13 @@
     max-width: 20%;
   }
 }
+
+@media (max-width: 500px) {
+  .subtitulo02 {
+    font-size: 16px;
+  }
+
+  .h1-titulo02 {
+    font-size: 34px;
+  }
+}

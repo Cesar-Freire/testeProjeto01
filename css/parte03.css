@@ -142,3 +142,24 @@
     margin-left: 60px;
   }
 }
+
+@media (max-width: 500px) {
+  .h1-nebula {
+    margin-top: 40px;
+  }
+
+  .h1-nebula::before {
+    margin-top: 20px;
+  }
+
+  .p-textoNe {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .botao03 {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin-right: -50px;
+  }
+}
