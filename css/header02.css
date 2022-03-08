@@ -1,0 +1,56 @@
+.titulo-sub02 {
+  margin: 60px 0px 0px 60px;
+}
+
+.subtitulo02 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.h1-titulo02 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 62px;
+  line-height: 72px;
+  text-transform: lowercase;
+}
+
+.h1-titulo02 span {
+  color: #52b8b2;
+}
+
+.img-bike {
+  margin: 60px 0px 0px 60px;
+}
+
+@media (max-width: 800px) {
+  .h1-titulo02 {
+    font-size: 45px;
+  }
+
+  .subtitulo02 {
+    font-size: 20px;
+  }
+
+  .titulo-sub02 {
+    margin-bottom: 20px;
+  }
+
+  .img-bike {
+    margin: 30px 0px 0px 60px;
+  }
+
+  .nebula {
+    margin-top: -30px;
+  }
+}
+
+@media (max-width: 500px) {
+  .img-bike {
+    max-width: 20%;
+  }
+}

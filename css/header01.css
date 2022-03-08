@@ -1,0 +1,24 @@
+.titulo-sub {
+  margin: 60px 0px 0px 60px;
+}
+
+.subtitulo {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #525252;
+}
+
+.h1-titulo {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  text-transform: lowercase;
+}
+
+.h1-titulo span {
+  color: #52b8b2;
+}

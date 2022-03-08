@@ -1,0 +1,144 @@
+.bikes {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 70px;
+}
+
+.h1-nebula {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 58px;
+  color: #141414;
+  margin-top: 70px;
+  margin-bottom: 16px;
+}
+
+.nebula {
+  position: relative;
+}
+.h1-nebula::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: #095b57;
+  position: absolute;
+  top: 60px;
+  left: 2px;
+}
+
+.p-textoNe {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  color: #525252;
+  margin-bottom: 20px;
+}
+
+.p-cosmic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #095b57;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p-cosmic02 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #095b57;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.li-bikes {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.botao03 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #000;
+  background: #52b8b2;
+  border-radius: 6px;
+  padding: 16px 32px;
+  margin-top: -24px;
+  margin-right: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+@media (max-width: 1155px) {
+  .botao03 {
+    font-size: 18px;
+    padding: 16px 32px;
+  }
+  .p-cosmic02 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bikes {
+    grid-template-columns: 1fr;
+  }
+  .botao03 {
+    font-size: 18px;
+    padding: 16px 32px;
+    max-width: 90ch;
+  }
+
+  .h1-nebula {
+    margin-top: 22px;
+    margin-left: 60px;
+  }
+
+  .h1-nebula::before {
+    content: "";
+    width: 12px;
+    height: 8px;
+    background: #095b57;
+    position: absolute;
+    top: 20px;
+    left: 62px;
+  }
+
+  .p-textoNe {
+    font-size: 18px;
+    margin-left: 60px;
+  }
+
+  .ul-bikes {
+    margin-left: 60px;
+  }
+}
+
+@media (max-width: 850px) {
+  .botao03 {
+    margin-right: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .p-textoNe {
+    font-size: 22px;
+  }
+
+  .h1-nebula {
+    margin-top: 22px;
+    margin-left: 60px;
+  }
+}
